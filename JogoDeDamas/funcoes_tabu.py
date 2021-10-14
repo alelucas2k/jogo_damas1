@@ -33,7 +33,7 @@ def criaTab():
 
 
 
-def inicia_partida():
+def iniciaPartida():
        
     """ Esvolhe aleatoriamente que iniciará o jogo """
 
@@ -45,7 +45,7 @@ def inicia_partida():
 
 
 
-def jogada_valida(x: int, y: int):
+def jogadaValida(x: int, y: int):
 
     """ função que verifica se a jogada indicada pelo usuario está dentro do tabuleiro """
 
@@ -53,7 +53,7 @@ def jogada_valida(x: int, y: int):
 
 
 
-def possui_peça(x: int, y: int, tabuleiro, t):
+def possuiPeca(x: int, y: int, tabuleiro, t):
 
     """ funcção que verifica se existe peça no local inicial escolhido pelo jogador """
 
@@ -64,7 +64,7 @@ def possui_peça(x: int, y: int, tabuleiro, t):
 
 
 
-def movimentos_possiveis(tab, x, y):
+def movimentosPossiveis(tab, x, y):
     movimentos = []
 
     """ funcção que cria uma lista com as possibilidades de movimento de uma peça,
@@ -216,7 +216,7 @@ def joga(tab, x, y, w, z):
 
 p = 0
 b = 0
-def contaPeças(p, b, tab):
+def contaPecas(p, b, tab):
 
     """ função que calcula a quantidade de peças de cada jogador """
 
