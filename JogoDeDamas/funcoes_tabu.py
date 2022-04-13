@@ -33,7 +33,7 @@ def criaTab():
 
 
 
-def iniciaPartida():
+def inicia_partida():
        
     """ Esvolhe aleatoriamente que iniciará o jogo """
 
@@ -45,7 +45,7 @@ def iniciaPartida():
 
 
 
-def jogadaValida(x: int, y: int):
+def jogada_valida(x: int, y: int):
 
     """ função que verifica se a jogada indicada pelo usuario está dentro do tabuleiro """
 
@@ -53,7 +53,7 @@ def jogadaValida(x: int, y: int):
 
 
 
-def possuiPeca(x: int, y: int, tabuleiro, t):
+def possui_peca(x: int, y: int, tabuleiro, t):
 
     """ funcção que verifica se existe peça no local inicial escolhido pelo jogador """
 
@@ -64,7 +64,7 @@ def possuiPeca(x: int, y: int, tabuleiro, t):
 
 
 
-def movimentosPossiveis(tab, x, y):
+def movimentos_possiveis(tab, x, y):
     movimentos = []
 
     """ funcção que cria uma lista com as possibilidades de movimento de uma peça,
